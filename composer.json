@@ -1,11 +1,9 @@
 {
     "name": "m0h314-hasani/phpmvc-framework",
-    "authors": [
-        {
-            "name": "Mohsen Hasani",
-            "email": "m0h314.hasani@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Mohsen Hasani",
+        "email": "m0h314.hasani@gmail.com"
+    }],
     "autoload": {
         "psr-4": {
             "App\\": "."

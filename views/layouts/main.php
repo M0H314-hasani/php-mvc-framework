@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/css/bootstrap.css">
     <title><?php echo $this->title ?></title>
 </head>
 <body>
@@ -32,7 +31,7 @@
                 <a class="nav-link" href="/about">About</a>
             </li>
         </ul>
-        <?php use thecodeholic\phpmvc\Application;
+        <?php use Phpmvc\Core\Application;
 
         if (Application::isGuest()): ?>
             <ul class="navbar-nav ml-auto">

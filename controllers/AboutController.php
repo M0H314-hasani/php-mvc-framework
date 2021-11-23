@@ -5,16 +5,16 @@
  * Time: 8:56 AM
  */
 
-namespace app\controllers;
+namespace App\Controllers;
 
 
-use thecodeholic\phpmvc\Controller;
+use Phpmvc\Core\Controller;
 
 /**
  * Class AboutController
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package app\controllers
+ * @package App\Controllers
  */
 class AboutController extends Controller
 {

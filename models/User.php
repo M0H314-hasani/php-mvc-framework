@@ -5,17 +5,17 @@
  * Time: 9:15 AM
  */
 
-namespace app\models;
+namespace App\Models;
 
 
-use thecodeholic\phpmvc\DbModel;
-use thecodeholic\phpmvc\UserModel;
+use Phpmvc\Core\DbModel;
+use Phpmvc\Core\UserModel;
 
 /**
  * Class Register
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package app\models
+ * @package App\Models
  */
 class User extends UserModel
 {

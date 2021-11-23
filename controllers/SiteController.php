@@ -5,22 +5,22 @@
  * Time: 8:43 AM
  */
 
-namespace app\controllers;
+namespace App\Controllers;
 
 
-use thecodeholic\phpmvc\Application;
-use thecodeholic\phpmvc\Controller;
-use thecodeholic\phpmvc\middlewares\AuthMiddleware;
-use thecodeholic\phpmvc\Request;
-use thecodeholic\phpmvc\Response;
-use app\models\LoginForm;
-use app\models\User;
+use Phpmvc\Core\Application;
+use Phpmvc\Core\Controller;
+use Phpmvc\Core\Middlewares\AuthMiddleware;
+use Phpmvc\Core\Request;
+use Phpmvc\Core\Response;
+use App\Models\LoginForm;
+use App\Models\User;
 
 /**
  * Class SiteController
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package app\controllers
+ * @package App\Controllers
  */
 class SiteController extends Controller
 {

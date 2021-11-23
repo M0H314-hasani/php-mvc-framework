@@ -1,7 +1,7 @@
 <?php
-/** @var $model \thecodeholic\phpmvc\Model */
+/** @var $model \Phpmvc\Core\Model */
 
-use thecodeholic\phpmvc\form\Form;
+use Phpmvc\Core\Form\Form;
 
 $form = new Form();
 ?>

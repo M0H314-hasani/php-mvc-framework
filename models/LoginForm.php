@@ -5,17 +5,17 @@
  * Time: 9:36 AM
  */
 
-namespace app\models;
+namespace App\Models;
 
 
-use thecodeholic\phpmvc\Application;
-use thecodeholic\phpmvc\Model;
+use Phpmvc\Core\Application;
+use Phpmvc\Core\Model;
 
 /**
  * Class LoginForm
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package app\models
+ * @package App\Models
  */
 class LoginForm extends Model
 {

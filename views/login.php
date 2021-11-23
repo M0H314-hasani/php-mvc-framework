@@ -1,8 +1,8 @@
 <?php
 
-/** @var $model \app\models\LoginForm */
+/** @var $model \App\Models\LoginForm */
 
-use thecodeholic\phpmvc\form\Form;
+use Phpmvc\Core\Form\Form;
 
 ?>
 
