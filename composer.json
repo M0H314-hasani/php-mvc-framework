@@ -1,18 +1,27 @@
 {
-    "name": "thecodeholic/phpmvc-framework",
+    "name": "m0h314-hasani/phpmvc-framework",
     "authors": [
         {
-            "name": "Zura Sekhniashvili",
-            "email": "zurasekhniashvili@gmail.com"
+            "name": "Mohsen Hasani",
+            "email": "m0h314.hasani@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "app\\": "."
+            "App\\": "."
         }
     },
+    "repositories": [{
+        "type": "vcs",
+        "url": "git@github.com:M0H314-hasani/php-mvc-core.git"
+    }],
     "require": {
-        "vlucas/phpdotenv": "^5.0",
-        "thecodeholic/php-mvc-core": "^v1.0.4"
+        "vlucas/phpdotenv": "^5.4",
+        "m0h314-hasani/php-mvc-core": "dev-master"
+    },
+    "config": {
+        "preferred-install": {
+            "m0h314-hasani/php-mvc-core": "source"
+        }
     }
 }
